@@ -18,15 +18,15 @@ function whileLoop(n) {
 }
 function doWhileLoop(array) {
 	var i = 0;
- 
+
   function incrementVariable() {
     i = i + 1;
 }
 
 do {
-	  console.log('array.length = ' + array.length + ' and i = ' + i); 
+	  console.log('array.length = ' + array.length + ' and i = ' + i);
 	  array = array.slice(1);
-		incrementVariable(); 
-} while (array.length > 0 && i < 5); 
+		incrementVariable();
+} while (array.length > 0 && i < 5);
 
 return array; 
