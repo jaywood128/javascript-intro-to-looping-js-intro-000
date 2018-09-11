@@ -17,6 +17,7 @@ function whileLoop(n) {
     return "done"
 }
 function doWhileLoop(array) {
+<<<<<<< HEAD
   var i = 0;
     function incrementVariable() {
       i = i + 0;
@@ -30,3 +31,18 @@ function doWhileLoop(array) {
      }
 
 }
+=======
+  var i = 0; 
+    function incrementVariable() {
+      i = i + 0; 
+    }
+      return array
+    
+  }
+     do {
+       earn
+       
+     }
+   
+}
+>>>>>>> 9ea22ee0e5e12bbdaf981c4de5319f8d7180722e
